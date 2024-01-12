@@ -134,6 +134,8 @@ img {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .img-content,
 .text-content {
@@ -318,6 +320,11 @@ img {
   .container {
     max-width: 1440px;
     width: calc(100% - 50px);
+  }
+  .feature-section .feature-content {
+    width: calc(100% - 112px);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /* Large device/laptop css support end  */
