@@ -175,6 +175,88 @@ img {
   margin-bottom: 32px;
 }
 /* Feature section CSS end  */
+/* Product Feature section start  */
+.product-feature-section {
+  margin-top: 130px;
+}
+.product-feature-section .pro-fe-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 146px;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.pro-fe-text,
+.pro-fe-img {
+  flex: 1;
+}
+.pro-fe-hero .pro-hero-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  width: 468px;
+  border-left: 5px solid#FF900E;
+  padding-left: 21px;
+  margin-bottom: 24px;
+}
+.pro-fe-hero p {
+  font-size: 16px;
+  color: #727272;
+  font-weight: 400;
+  line-height: 26px;
+}
+.pro-fe-text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.pro-fe-text-wrap .pro-fe-item {
+  padding: 30px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.pro-fe-text-wrap .pro-fe-item .pro-item-title {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+}
+.pro-fe-text-wrap .pro-fe-item p {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.pro-image-wrap {
+  position: relative;
+}
+.pro-image-wrap img {
+  border-radius: 8px;
+}
+.ten-year {
+  background-color: #ff900e;
+  padding: 45px 40px;
+  display: inline-block;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  left: -92px;
+  bottom: -77px;
+}
+.ten-year p {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.ten-year h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px;
+}
+/* Product Feature section end  */
 /* Home Page CSS end  */
 
 /* Responsive media query start  */
