@@ -172,15 +172,61 @@ section {
 }
 
 /* Mobile or small device less then 600px end  */
+/* Medium device/table device support css start  */
+@media (min-width: 768px) {
+  .container {
+    max-width: 991px;
+    width: calc(100% - 24px);
+  }
+  .header-text-content,
+  .header-text-content .header-title {
+    width: 100%;
+  }
+  .desk-nav {
+    display: none;
+  }
+  .mobile-nav .mbl-bar {
+    font-size: 32px;
+  }
+  .header-text-content,
+  .header-text-content .header-title {
+    margin-top: 50px;
+  }
+}
+/* Medium device/table device support css end  */
 
 /* Medium large display CSS start  */
 @media (min-width: 992px) {
   .container {
     max-width: 1023px;
+    width: calc(100% - 50px);
   }
+
   .mobile-nav {
     display: none;
   }
+  .desk-nav {
+    display: block;
+  }
 }
 /* Medium large display CSS end  */
+/* Large device/laptop css support start  */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    width: calc(100% - 50px);
+  }
+  .header-text-content {
+    width: 862px;
+  }
+}
+/* Large device/laptop css support end  */
+/* Large device/laptop css support start  */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1440px;
+    width: calc(100% - 50px);
+  }
+}
+/* Large device/laptop css support end  */
 /* Responsive media query end  */
