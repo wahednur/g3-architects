@@ -262,7 +262,17 @@ img {
   .header-text-content .header-title {
     margin-top: 50px;
   }
+  /* Feature section Tab/Medium device support start  */
+  .feature-section .feature-content {
+    width: 100%;
+  }
+  .img-content,
+  .text-content {
+    width: calc(50% - 16px);
+  }
+  /* Feature section Tab/Medium device support end  */
 }
+
 /* Medium device/table device support css end  */
 
 /* Medium large display CSS start  */
@@ -278,6 +288,12 @@ img {
   .desk-nav {
     display: block;
   }
+  /* Feature section medium large device supported css start  */
+  .img-content,
+  .text-content {
+    width: calc(50% - 30px);
+  }
+  /* Feature section medium large device supported css end  */
 }
 /* Medium large display CSS end  */
 /* Large device/laptop css support start  */
@@ -289,6 +305,12 @@ img {
   .header-text-content {
     width: 862px;
   }
+  /* Feature section large device css support start  */
+  .img-content,
+  .text-content {
+    width: calc(50% - 36.5px);
+  }
+  /* Feature section large device css support end  */
 }
 /* Large device/laptop css support end  */
 /* Large device/laptop css support start  */
