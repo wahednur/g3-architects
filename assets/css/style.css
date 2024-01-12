@@ -223,6 +223,22 @@ img {
     font-size: 30px;
   }
   /* Mobile Devices/extra small device Header css end  */
+  /* Feature section mobile device css support start  */
+  .feature-section .feature-content,
+  .img-content {
+    width: 100%;
+    flex-direction: column;
+    order: 1;
+    text-align: center;
+  }
+  .feature-section .feature-content .btn {
+    margin-bottom: 50px;
+  }
+  .img-item,
+  .text-content {
+    width: 100%;
+  }
+  /* Feature section mobile device css support end  */
 }
 
 /* Mobile or small device less then 600px end  */
