@@ -54,6 +54,9 @@ section {
 .btn-fill:hover {
   background-color: #ffae51;
 }
+img {
+  width: 100%;
+}
 /* Global CSS end  */
 
 /* Home Page CSS start  */
@@ -119,6 +122,57 @@ section {
 }
 
 /* Header css end  */
+/* Feature section CSS start  */
+.feature-section {
+  margin-top: 80px;
+}
+.feature-section .feature-content {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 112px);
+  /* gap: 73px; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.img-content,
+.text-content {
+  width: calc(50% - 36.5px);
+}
+.img-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.img-item {
+  width: calc(50% - 12px);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.feature-section .feature-content .quick {
+  font-size: 45px;
+  font-weight: 500;
+  color: #727272;
+}
+.feature-section .feature-content .quick span {
+  color: #131313;
+  font-weight: 700;
+}
+.feature-section .feature-content .fe-text {
+  color: #ff900e;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.feature-section .feature-content .fe-desk {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+/* Feature section CSS end  */
 /* Home Page CSS end  */
 
 /* Responsive media query start  */
