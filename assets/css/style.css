@@ -259,6 +259,51 @@ img {
   line-height: 70px;
 }
 /* Product Feature section end  */
+
+/* Some facts section CSS start  */
+.some-facts-section {
+  margin-top: 130px;
+}
+.some-facts-section .facts-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.some-facts-section .facts-wrap .facts-item {
+  padding: 45px 40px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+}
+.some-facts-section .facts-wrap .facts-item img {
+  width: 45.221px;
+  height: 45.221px;
+}
+.some-facts-section .facts-hero h1 {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.some-facts-section .facts-hero p {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 542px;
+}
+.some-facts-section .facts-wrap .facts-item h1 {
+  color: #424242;
+  font-size: 45px;
+  line-height: normal;
+}
+.some-facts-section .facts-wrap .facts-item p {
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Some facts section CSS end  */
 /* Home Page CSS end  */
 
 /* Responsive media query start  */
@@ -350,11 +395,20 @@ img {
     font-size: 40px;
   }
   /* Product feature section Mobile device css end */
+  /* Some facts section mobile devices supported CSS start */
+  .some-facts-section .facts-wrap {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .some-facts-section .facts-hero p {
+    width: 100%;
+  }
+  /* Some facts section mobile devices supported CSS end */
 }
 
 /* Mobile or small device less then 600px end  */
 /* Medium device/table device support css start  */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .container {
     max-width: 991px;
     width: calc(100% - 24px);
@@ -386,15 +440,28 @@ img {
     flex-direction: column;
     gap: 50px;
   }
+  .ten-year {
+    left: calc(50% - 146px);
+  }
+  .some-facts-section {
+    margin-top: 180px;
+  }
+  .some-facts-section .facts-wrap {
+    gap: 24px;
+  }
+  .some-facts-section .facts-wrap .facts-item {
+    width: calc(50% - 12px);
+  }
 }
 
 /* Medium device/table device support css end  */
 
 /* Medium large display CSS start  */
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
   .container {
     max-width: 1023px;
     width: calc(100% - 50px);
+    margin-top: 61px;
   }
 
   .mobile-nav {
@@ -416,7 +483,7 @@ img {
 }
 /* Medium large display CSS end  */
 /* Large device/laptop css support start  */
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
   .container {
     max-width: 1200px;
     width: calc(100% - 50px);
@@ -444,5 +511,6 @@ img {
     margin-right: auto;
   }
 }
+
 /* Large device/laptop css support end  */
 /* Responsive media query end  */
