@@ -57,6 +57,9 @@ section {
 img {
   width: 100%;
 }
+.mobile-nav {
+  display: none;
+}
 /* Global CSS end  */
 
 /* Home Page CSS start  */
@@ -489,6 +492,9 @@ img {
   }
   .desk-nav {
     display: none;
+  }
+  .mobile-nav {
+    display: block;
   }
   .mobile-nav .mbl-bar {
     font-size: 32px;
