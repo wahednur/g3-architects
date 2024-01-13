@@ -304,6 +304,45 @@ img {
   font-weight: 600;
 }
 /* Some facts section CSS end  */
+/* Our sponsor section css start  */
+.sponsor-section {
+  margin-top: 180px;
+}
+.sponsor-section .spons-text {
+  text-align: center;
+}
+.sponsor-section .spons-text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.sponsor-section .spons-text p {
+  width: 524px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.sponsor-section .spons-img-sec {
+  margin-top: 50px;
+}
+.sponsor-section .spons-img-sec .spons-img-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sponsor-section .spons-img-sec .spons-img-wrap .spons-item {
+  filter: grayscale(1);
+}
+.sponsor-section .spons-img-sec .spons-img-wrap .spons-item:hover {
+  filter: grayscale(0);
+  transition: all ease-in-out 300ms;
+}
+/* Our sponsor section css end  */
 /* Home Page CSS end  */
 
 /* Responsive media query start  */
@@ -355,6 +394,7 @@ img {
   }
   /* Mobile Devices/extra small device Header css end  */
   /* Feature section mobile device css support start  */
+
   .feature-section .feature-content,
   .img-content {
     width: 100%;
@@ -396,6 +436,9 @@ img {
   }
   /* Product feature section Mobile device css end */
   /* Some facts section mobile devices supported CSS start */
+  .some-facts-section {
+    margin-top: 100px;
+  }
   .some-facts-section .facts-wrap {
     flex-direction: column;
     gap: 24px;
@@ -404,6 +447,19 @@ img {
     width: 100%;
   }
   /* Some facts section mobile devices supported CSS end */
+  /* Our sponsor section mobile device supported css start  */
+  .sponsor-section .spons-text p {
+    width: 100%;
+  }
+  .sponsor-section .spons-img-sec .spons-img-wrap {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .sponsor-section .spons-img-sec .spons-img-wrap .spons-item {
+    width: 100%;
+    display: block;
+  }
+  /* Our sponsor section mobile device supported css end  */
 }
 
 /* Mobile or small device less then 600px end  */
@@ -451,6 +507,10 @@ img {
   }
   .some-facts-section .facts-wrap .facts-item {
     width: calc(50% - 12px);
+  }
+  .sponsor-section .spons-img-sec .spons-img-wrap .spons-item {
+    display: block;
+    height: 100px;
   }
 }
 
