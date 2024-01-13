@@ -343,6 +343,20 @@ img {
   transition: all ease-in-out 300ms;
 }
 /* Our sponsor section css end  */
+
+/* footer section css start  */
+.footer {
+  margin-top: 130px;
+}
+.fo-bg {
+  border-radius: 8px;
+  background: #fff4e7;
+}
+.footer p {
+  padding: 38px;
+  text-align: center;
+}
+/* footer section css end  */
 /* Home Page CSS end  */
 
 /* Responsive media query start  */
